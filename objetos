@@ -1,0 +1,5 @@
+var c2= new Carrito();
+var prod={"nombre":"papas","precio":10}
+var e = new Entrada(2,prod);
+console.log(e);
+c2.addEntrada(e);
